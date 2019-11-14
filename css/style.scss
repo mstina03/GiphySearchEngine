@@ -1,0 +1,58 @@
+#aboutImg {
+  height: 25rem;
+  width: 25rem;
+  border-style: double;
+  border-color: #888888;
+  background: white;
+  border-radius: 50%;
+}
+
+#contactImg {
+  height: 10rem;
+  width: 15rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+#emailMe,
+#linkedin {
+  height: 3rem;
+  width: 3.75rem;
+}
+
+#gitHub {
+  height: 3.25rem;
+  width: 3.75rem;
+}
+
+.about {
+  margin: 0.5rem 0rem;
+  padding: 0.5rem 0.5rem;
+  height: 34.25rem;
+  width: 99%;
+  text-align: center;
+}
+
+
+#myCanvas {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+figcaption {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    margin-top: 2%;
+    width: 99%;
+    height: 4.5rem;
+    bottom: 0;
+    text-align: right;
+    align-items: center;
+}

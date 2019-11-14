@@ -4,14 +4,46 @@
 <head>
     <title> Giphy Search Engine</title>
     <link rel="stylesheet" href="styles/bootstrap.min.css" />
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Giphy Search</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Search <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
 </header>
 
 <body>
-    <h1> Tina's Giphy Search Engine Development</h1>
+
+    <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <footer>
+        <a href="contact.html"><img src="img/mail-black-envelope-symbol.png" alt="Email Logo" id="emailMe"></a>
+        <a href="https://github.com/mstina03" target="_blank"><img src="img/github-square-512.png" alt="Github Logo"
+                id="gitHub"></a>
+        <a href="https://www.linkedin.com" target="_blank"><img src="img/Linked In.png" alt="Linked In Logo"
+                id="linkedin"></a>
+    </footer>
     <script src="scripts/jquery-3.4.1.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
 </body>
