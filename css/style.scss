@@ -35,24 +35,29 @@
 }
 
 
-#myCanvas {
-    padding: 0.5rem;
-    font-size: 1.1rem;
-    text-align: left;
+
+#aboutInfo {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  text-align: left;
 }
 
 figcaption {
-    font-size: 1.1rem;
-    text-align: center;
-    font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 footer {
-    position: fixed;
-    margin-top: 2%;
-    width: 99%;
-    height: 4.5rem;
-    bottom: 0;
-    text-align: right;
-    align-items: center;
+  position: fixed;
+  margin-top: 2%;
+  width: 99%;
+  height: 4.5rem;
+  bottom: 0;
+  text-align: right;
+  align-items: center;
+}
+
+ul {
+  float: right;
 }
