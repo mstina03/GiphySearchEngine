@@ -1,0 +1,14 @@
+.container {
+    margin-top: 50px;
+}
+
+#ptitle {
+    background-color: whitesmoke;
+    border-radius: 1rem;
+}
+
+@media (min-width: 576px) {
+    .ablum-title {
+        margin-top: 20px;
+    }
+}
