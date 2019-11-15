@@ -48,15 +48,8 @@ figcaption {
   font-weight: bold;
 }
 
-footer {
-  position: absolute;
-  bottom: 0; 
-  width: 99%;
-  height: 4.5rem;
-  text-align: right;
-//   align-items: center;
-//   margin: 0.5rem 0rem;
-  padding: 2.5rem 2rem;
+
+@media (max-width: 768px) {
 }
 
 .contact {
