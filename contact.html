@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Giphy Search</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+
+<body>
+
+    <!-- <h1>Contact Me</h1> -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        <figure>
+                            <img src="img/email-icon-hi.png" alt=" Contact Me" id="contactImg">
+                        </figure>
+                        <figcaption class="Inquiry">Contact Me</figcaption>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form action="#" method="POST">
+                        <fieldset>
+                            <nav>
+                                <label>Name: </label>
+                                <p><input id="nameid" type="text" required="required" name="name" /></p>
+
+                            </nav>
+                            <nav>
+                                <label>E-mail Address: </label>
+                                <p><input id="emailid" type="email" required="required" name="email" /></p>
+                            </nav>
+                            <nav>
+                                <label>Message:</label>
+                                <div>
+                                    <p><textarea id="msgid" name="paragraph_text" cols="50" rows="10"
+                                            required="required"></textarea></p>
+                                    <input id="sendid" type="submit" value="Send" name="submit" />
+                                </div>
+                            </nav>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <a href="contact.html"><img src="img/mail-black-envelope-symbol.png" alt="Email Logo" id="emailMe"></a>
+        <a href="https://github.com/mstina03" target="_blank"><img src="img/github-square-512.png" alt="Github Logo"
+                id="gitHub"></a>
+        <a href="https://www.linkedin.com" target="_blank"><img src="img/Linked In.png" alt="Linked In Logo"
+                id="linkedin"></a>
+    </footer>
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+</body>
+
+</html>

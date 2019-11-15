@@ -1,18 +1,22 @@
+html {
+  font-size: 20px;
+}
+
 #aboutImg {
-  height: 25rem;
-  width: 25rem;
+  height: 20rem;
+  width: 20rem;
   border-style: double;
   border-color: #888888;
   background: white;
   border-radius: 50%;
+  margin: 5rem -10rem;
+  text-align: center;
 }
 
 #contactImg {
   height: 10rem;
   width: 15rem;
-  margin: 0.5rem;
-  padding: 0.5rem;
-  text-align: center;
+  margin: 5rem 0rem;
 }
 
 #emailMe,
@@ -27,14 +31,10 @@
 }
 
 .about {
-  margin: 0.5rem 0rem;
-  padding: 0.5rem 0.5rem;
-  height: 34.25rem;
-  width: 99%;
+  margin: 0.5rem 2rem;
+  padding: 1rem 0.5rem;
   text-align: center;
 }
-
-
 
 #aboutInfo {
   padding: 0.5rem;
@@ -49,15 +49,41 @@ figcaption {
 }
 
 footer {
-  position: fixed;
-  margin-top: 2%;
+  position: absolute;
+  bottom: 0; 
   width: 99%;
   height: 4.5rem;
-  bottom: 0;
   text-align: right;
-  align-items: center;
+//   align-items: center;
+//   margin: 0.5rem 0rem;
+  padding: 2.5rem 2rem;
 }
 
-ul {
-  float: right;
+.contact {
+  margin: 0.5rem 0rem;
+  padding: 2rem 2rem;
+}
+#contactImg {
+  height: 20rem;
+  width: 20rem;
+}
+.Inquiry {
+  height: 2.5rem;
+  width: 23.75rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#emailid,
+#nameid,
+#sendid {
+  height: 2.5rem;
+  font-size: 0.8rem;
+  width: 24rem;
+}
+#sendid {
+  font-weight: bold;
+  background-color: blueviolet;
+  font-size: 1.25rem;
+  width: 24rem;
 }
