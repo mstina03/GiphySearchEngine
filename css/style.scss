@@ -48,8 +48,10 @@ figcaption {
   font-weight: bold;
 }
 
-
 @media (max-width: 768px) {
+  .contact-me {
+    visibility: hidden;
+  }
 }
 
 .contact {
@@ -79,4 +81,24 @@ figcaption {
   background-color: blueviolet;
   font-size: 1.25rem;
   width: 24rem;
+}
+
+.form-inline {
+  margin: 0.5rem 0rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+label {
+  width: 10rem;
+  text-align: left;
+  
+}
+.btn-secondary {
+  background-color:whitesmoke;
+  width: 12rem;
+}
+
+.hidden{
+    visibility: hidden;
 }
