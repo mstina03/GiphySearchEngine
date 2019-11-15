@@ -9,25 +9,30 @@ html {
   border-color: #888888;
   background: white;
   border-radius: 50%;
-  margin: 5rem -10rem;
+  margin: 1rem -1rem;
   text-align: center;
 }
 
 #contactImg {
-  height: 10rem;
+  height: 15rem;
   width: 15rem;
   margin: 5rem 0rem;
 }
 
+#giphy-img {
+  height: 3rem;
+  width: 3rem;
+//   text-align: center;
+}
 #emailMe,
 #linkedin {
   height: 3rem;
-  width: 3.75rem;
+  width: 3rem;
 }
 
 #gitHub {
   height: 3.25rem;
-  width: 3.75rem;
+  width: 3rem;
 }
 
 .about {
@@ -38,12 +43,12 @@ html {
 
 #aboutInfo {
   padding: 0.5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: left;
 }
 
 figcaption {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: center;
   font-weight: bold;
 }
@@ -58,15 +63,12 @@ figcaption {
   margin: 0.5rem 0rem;
   padding: 2rem 2rem;
 }
-#contactImg {
-  height: 20rem;
-  width: 20rem;
-}
+
 .Inquiry {
   height: 2.5rem;
   width: 23.75rem;
   font-size: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 #emailid,
@@ -92,13 +94,12 @@ figcaption {
 label {
   width: 10rem;
   text-align: left;
-  
 }
 .btn-secondary {
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   width: 12rem;
 }
 
-.hidden{
-    visibility: hidden;
+.hidden {
+  visibility: hidden;
 }
