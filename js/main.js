@@ -23,3 +23,8 @@ $(function () {
         }
     });
 });
+
+$(function () {
+    var keyword = $('#keyword').val();
+    alert(" Keyword: " + keyword);
+});
