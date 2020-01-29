@@ -112,10 +112,13 @@ label {
 
 .grid-container {
   display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
   grid-template-columns: auto auto auto;
-  background-color: rgba(33, 149, 243, 0.158);
+  background-color: rgba(65, 33, 243, 0.068);
   padding: 10px;
 }
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
