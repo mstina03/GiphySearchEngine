@@ -70,10 +70,13 @@ figcaption {
   font-size: 2rem;
   text-align: left;
 }
-
+#gifnumber, #keyword 
+{
+  width: 12rem;
+}
 #emailid,
 #nameid,
-#sendid {
+#sendid{
   height: 2.5rem;
   font-size: 0.8rem;
   width: 24rem;
