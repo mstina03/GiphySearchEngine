@@ -1,6 +1,6 @@
 html {
   font-size: 20px;
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
 }
 
 #aboutImg {
@@ -71,13 +71,14 @@ figcaption {
   font-size: 2rem;
   text-align: left;
 }
-#gifnumber, #keyword 
-{
+#gifnumber,
+#keyword,
+#search {
   width: 12rem;
 }
 #emailid,
 #nameid,
-#sendid{
+#sendid {
   height: 2.5rem;
   font-size: 0.8rem;
   width: 24rem;
@@ -96,6 +97,7 @@ figcaption {
 
 label {
   width: 10rem;
+  font-size: 1rem;
   text-align: left;
 }
 .btn-secondary {
@@ -115,8 +117,7 @@ label {
   padding: 10px;
 }
 
-#grid-img
-{
+#grid-img {
   height: 10rem;
   width: 10rem;
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -150,7 +151,7 @@ label {
   }
   #aboutInfo {
     padding: 0.25rem;
-    font-size: .5rem;
+    font-size: 0.5rem;
     text-align: left;
   }
   #emailid,
@@ -158,21 +159,29 @@ label {
   #sendid {
     height: 2.5rem;
     font-size: 0.5rem;
-    width: 10rem;
+    width: 12rem;
   }
   #msgid {
     height: 5rem;
     font-size: 0.5rem;
-    width: 10rem;
+    width: 12rem;
   }
 
   label {
     width: 10rem;
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-align: left;
   }
+  #gifnumber,
+  #keyword,
+  #search {
+    width: 12rem;
+  }
+  .home {
+    text-align: center;
+  }
   figcaption {
-    font-size: .5rem;
+    font-size: 0.5rem;
     text-align: center;
     font-weight: bold;
   }
@@ -180,15 +189,13 @@ label {
     display: grid;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     padding: 5px;
   }
 
-  #grid-img
-{
-  height: 6rem;
-  width: 6rem;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-}
-  
+  #grid-img {
+    height: 15rem;
+    width: 15rem;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
 }
