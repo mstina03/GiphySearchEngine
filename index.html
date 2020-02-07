@@ -24,7 +24,8 @@
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html" title="Home Page">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html" title="Home Page">Home <span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html" title="About The Developer">About</a>
@@ -49,35 +50,32 @@
 <body>
     <h1>GIPHY Search API</h1>
     <form class="form-inline ">
-
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <nav>
-                        <label>GIF Search:</label>
-                        <input class="form-control mr-sm-2" type="text" placeholder="Enter Keyword" id="keyword" maxlength="20" pattern="[A-Za-z]" required >
+                <div class="col-md-12">
+
+                    <nav class="homedisplay">
+                        <label class="homelabel btn">GIF Search:</label>
+                        <input class="form-control mr-sm-2" type="text" placeholder="Enter Keyword" id="keyword"
+                            maxlength="20" pattern="[A-Za-z]" required>
                     </nav>
-                </div>
-                <div class="col-md-4">
-                    <nav>
-                        <label>No. of GIFs:</label>
-                        <input class="form-control mr-sm-2" type="number" max="54" size="2" placeholder="Enter Number (1-60)" id="gifnumber"  min="1" >
+
+                    <nav class="homedisplay">
+                        <label class="homelabel btn">No. of GIFs:</label>
+                        <p><input class="form-control mr-sm-2" type="number" max="54" size="2"
+                                placeholder="Enter Number (1-60)" id="gifnumber" min="1"></p>
                     </nav>
-                </div>
-                <div class="col-md-4">
-                    <nav>
-                        <label class="hidden">Search:</label>
-                        <button class="btn btn-secondary my-2 my-sm-0" type="submit" id="search">Search</button>
-                    </nav>
+
+                    <p><button class="btn btn-secondary my-2 my-sm-0" type="submit" id="search">Search</button></p>
 
                 </div>
             </div>
         </div>
     </form>
-    
+
     <div class="grid-container">
     </div>
-    
+
     <div class="container">
         <div class="row">
             <div class="col-md-4"></div>

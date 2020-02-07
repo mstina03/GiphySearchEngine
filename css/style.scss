@@ -2,7 +2,9 @@ html {
   font-size: 20px;
   font-family: "Berkshire Swash", cursive;
 }
-
+.homedisplay {
+  display: inline-block;
+}
 #aboutImg {
   height: 20rem;
   width: 20rem;
@@ -75,6 +77,12 @@ figcaption {
 #keyword,
 #search {
   width: 12rem;
+  text-align: center;
+}
+#search
+{
+  font-weight: bold;
+  font-size: 1rem;
 }
 #emailid,
 #nameid,
@@ -96,12 +104,15 @@ figcaption {
 }
 
 label {
-  width: 10rem;
+  width: 12rem;
   font-size: 1rem;
-  text-align: left;
 }
+.homelabel {
+  background-color: rgba(0, 0, 255, 0.13);
+}
+
 .btn-secondary {
-  background-color: whitesmoke;
+  background-color: rgba(0, 0, 255, 0.13);
   width: 12rem;
 }
 
@@ -122,8 +133,18 @@ label {
   width: 10rem;
   border: 1px solid rgba(0, 0, 0, 0.8);
 }
-
-@media (max-width: 768px) {
+@media (max-width: 320px)
+{
+  .grid-container {
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-columns: auto;
+    padding: 5px;
+  }
+}
+@media (max-width: 768px) 
+{
   .contact-me {
     visibility: hidden;
   }
@@ -170,12 +191,15 @@ label {
   label {
     width: 10rem;
     font-size: 1rem;
-    text-align: left;
+  }
+  .homelabel {
+    width: 12.1rem;
   }
   #gifnumber,
   #keyword,
   #search {
     width: 12rem;
+    margin: 0rem 3.5rem;
   }
   .home {
     text-align: center;
