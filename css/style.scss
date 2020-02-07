@@ -79,8 +79,7 @@ figcaption {
   width: 12rem;
   text-align: center;
 }
-#search
-{
+#search {
   font-weight: bold;
   font-size: 1rem;
   background-color: rgba(0, 0, 255, 0.13);
@@ -134,8 +133,7 @@ label {
   width: 10rem;
   border: 1px solid rgba(0, 0, 0, 0.8);
 }
-@media (max-width: 320px)
-{
+@media (max-width: 320px) {
   .grid-container {
     display: grid;
     grid-column-gap: 15px;
@@ -143,12 +141,11 @@ label {
     grid-template-columns: auto;
     padding: 5px;
   }
-  .nav-link{
+  .nav-link {
     text-align: center;
   }
 }
-@media (max-width: 768px) 
-{
+@media (max-width: 768px) {
   .contact-me {
     visibility: hidden;
   }
@@ -226,8 +223,11 @@ label {
     width: 15rem;
     border: 1px solid rgba(0, 0, 0, 0.8);
   }
-  .nav-link{
+  .nav-link {
     text-align: center;
   }
-   
+  .navbar-toggler-icon {
+    vertical-align: right;
+    float: right;
+  }
 }
