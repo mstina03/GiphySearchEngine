@@ -146,11 +146,18 @@ label {
   }
 }
 @media (max-width: 768px) {
-  .contact-me {
-    visibility: hidden;
-  }
   h1 {
     font-size: 1.25rem;
+  }
+  #emailMe,
+  #linkedin {
+    height: 1.75rem;
+    width: 2rem;
+  }
+
+  #gitHub {
+    height: 2rem;
+    width: 2rem;
   }
   #giphy-img {
     height: 2.5rem;
@@ -225,9 +232,5 @@ label {
   }
   .nav-link {
     text-align: center;
-  }
-  .navbar-toggler-icon {
-    vertical-align: right;
-    float: right;
   }
 }
