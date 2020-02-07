@@ -19,9 +19,9 @@ $(function () {
             }
         }
 
-        if (count > 60) {
-            alert("You entered a number greater than 60, only 60 images will be diplayed...")
-            count = 60;
+        if (count > 30) {
+            alert("You entered a number greater than 30, only 30 images will be diplayed...")
+            count = 30;
         }
 
         var api_key = "ApvlAJSFKecV5nbL7Jdu7BIdSFUj2CPR";
