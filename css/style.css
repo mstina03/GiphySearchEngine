@@ -1,0 +1,249 @@
+html {
+  font-size: 20px;
+  font-family: "Berkshire Swash", cursive;
+}
+
+.homedisplay {
+  display: inline-block;
+}
+
+#aboutImg {
+  height: 20rem;
+  width: 20rem;
+  border-style: double;
+  border-color: #888888;
+  background: white;
+  border-radius: 50%;
+  margin: 1rem -1rem;
+  text-align: center;
+}
+
+#contactImg {
+  height: 15rem;
+  width: 15rem;
+  margin: 5rem 0rem;
+}
+
+#giphy-img {
+  height: 3rem;
+  width: 5rem;
+}
+
+#emailMe,
+#linkedin {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+#gitHub {
+  height: 2.75rem;
+  width: 2.5rem;
+}
+
+#emailMe:hover,
+#linkedin:hover,
+#gitHub:hover {
+  background-color: #936dec;
+}
+
+.about {
+  margin: 0.5rem 2rem;
+  padding: 1rem 0.5rem;
+  text-align: center;
+}
+
+#aboutInfo {
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: left;
+}
+
+figcaption {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact {
+  margin: 0.5rem 0rem;
+  padding: 2rem 2rem;
+}
+
+.Inquiry {
+  height: 2.5rem;
+  width: 23.75rem;
+  font-size: 2rem;
+  text-align: left;
+}
+
+#gifnumber,
+#keyword,
+#search {
+  width: 12rem;
+  text-align: center;
+}
+
+#search {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 255, 0.13);
+}
+
+#emailid,
+#nameid,
+#sendid {
+  height: 2.5rem;
+  font-size: 0.8rem;
+  width: 24rem;
+}
+
+#sendid {
+  font-weight: bold;
+  font-size: 1.25rem;
+  width: 24rem;
+}
+
+.form-inline {
+  margin: 0.5rem 0rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+label {
+  width: 12rem;
+  font-size: 1rem;
+}
+
+.homelabel {
+  background-color: rgba(0, 0, 255, 0.13);
+}
+
+.btn-secondary {
+  background-color: rgba(0, 0, 255, 0.13);
+  width: 12rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  -ms-grid-columns: auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto;
+  padding: 10px;
+}
+
+#grid-img {
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 320px) {
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    padding: 5px;
+  }
+  .nav-link {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.25rem;
+  }
+  #emailMe,
+  #linkedin {
+    height: 1.75rem;
+    width: 2rem;
+  }
+  #gitHub {
+    height: 2rem;
+    width: 2rem;
+  }
+  #giphy-img {
+    height: 2.5rem;
+    width: 3rem;
+  }
+  #contactImg {
+    height: 7.5rem;
+    width: 7.5rem;
+    margin: 1rem 0rem;
+  }
+  #aboutImg {
+    height: 10rem;
+    width: 10rem;
+    border-style: double;
+    border-color: #888888;
+    background: white;
+    border-radius: 50%;
+    margin: 1rem -1rem;
+    text-align: center;
+  }
+  #aboutInfo {
+    padding: 0.25rem;
+    font-size: 0.5rem;
+    text-align: left;
+  }
+  #emailid,
+  #nameid,
+  #sendid {
+    height: 2.5rem;
+    font-size: 0.5rem;
+    width: 12rem;
+  }
+  #msgid {
+    height: 5rem;
+    font-size: 0.5rem;
+    width: 12rem;
+  }
+  label {
+    width: 10rem;
+    font-size: 1rem;
+  }
+  .homelabel {
+    width: 12.1rem;
+  }
+  #gifnumber,
+  #keyword,
+  #search {
+    width: 12rem;
+    margin: 0rem 3.5rem;
+  }
+  .home {
+    text-align: center;
+  }
+  figcaption {
+    font-size: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  .grid-container {
+    display: -ms-grid;
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    padding: 5px;
+  }
+  #grid-img {
+    height: 15rem;
+    width: 15rem;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+  .nav-link {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
