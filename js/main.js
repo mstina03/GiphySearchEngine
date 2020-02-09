@@ -23,7 +23,7 @@ $(function () {
         }
 
         var api_key = "ApvlAJSFKecV5nbL7Jdu7BIdSFUj2CPR";
-        var myUrl = `http://api.giphy.com/v1/gifs/search?q=${keyword}&api_key=${api_key}&limit=${count}`;
+        var myUrl = `https://api.giphy.com/v1/gifs/search?q=${keyword}&api_key=${api_key}&limit=${count}`;
 
         $.get(myUrl).done(function (response) {
             console.log(response);   // delete this from the final version!!!
