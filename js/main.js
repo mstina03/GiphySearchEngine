@@ -26,11 +26,11 @@ $(function () {
         var myUrl = `https://api.giphy.com/v1/gifs/search?q=${keyword}&api_key=${api_key}&limit=${count}`;
 
         $.get(myUrl).done(function (response) {
-            console.log(response);   // delete this from the final version!!!
+            //console.log(response);   // delete this from the final version!!!
 
             for (var i = 0; i < response.data.length; i++) {
                 var imageURL = '"' + response.data[i].images.preview_webp.url + '"';
-                $('.grid-container').append(`<img id="grid-img" src=${imageURL}>`);  // <===== accessibility??????
+                $('.grid-container').append(`<img class="grid-img" src=${imageURL}>`);  // <===== accessibility??????
             }
 
         });

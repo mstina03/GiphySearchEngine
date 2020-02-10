@@ -137,7 +137,7 @@ label {
   padding: 10px;
 }
 
-#grid-img {
+.grid-img {
   height: 10rem;
   width: 10rem;
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -237,7 +237,7 @@ label {
         grid-template-columns: auto;
     padding: 5px;
   }
-  #grid-img {
+  .grid-img {
     height: 15rem;
     width: 15rem;
     border: 1px solid rgba(0, 0, 0, 0.8);
