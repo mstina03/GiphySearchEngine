@@ -4,7 +4,17 @@ html {
 }
 
 .homedisplay {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #aboutImg {
@@ -128,13 +138,17 @@ label {
 }
 
 .grid-container {
-  display: -ms-grid;
-  display: grid;
-  grid-column-gap: 25px;
-  grid-row-gap: 25px;
-  -ms-grid-columns: auto auto auto auto auto auto;
-      grid-template-columns: auto auto auto auto auto auto;
-  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .grid-img {
@@ -145,8 +159,9 @@ label {
 
 @media (max-width: 320px) {
   .grid-container {
-    display: -ms-grid;
-    display: grid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     -ms-grid-columns: auto;
@@ -229,13 +244,17 @@ label {
     font-weight: bold;
   }
   .grid-container {
-    display: -ms-grid;
-    display: grid;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
-    padding: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .grid-img {
     height: 15rem;

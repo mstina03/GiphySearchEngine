@@ -3,7 +3,10 @@ html {
   font-family: "Berkshire Swash", cursive;
 }
 .homedisplay {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 #aboutImg {
   height: 20rem;
@@ -109,7 +112,6 @@ label {
 }
 .homelabel {
   background-color: rgba(0, 0, 255, 0.13);
-  
 }
 
 .btn-secondary {
@@ -122,11 +124,10 @@ label {
 }
 
 .grid-container {
-  display: grid;
-  grid-column-gap: 25px;
-  grid-row-gap: 25px;
-  grid-template-columns: auto auto auto auto auto auto;
-  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-img {
@@ -136,7 +137,7 @@ label {
 }
 @media (max-width: 320px) {
   .grid-container {
-    display: grid;
+    display: flex;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     grid-template-columns: auto;
@@ -219,11 +220,10 @@ label {
     font-weight: bold;
   }
   .grid-container {
-    display: grid;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    grid-template-columns: auto;
-    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
   .grid-img {
