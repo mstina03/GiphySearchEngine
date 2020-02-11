@@ -2,12 +2,7 @@ html {
   font-size: 20px;
   font-family: "Berkshire Swash", cursive;
 }
-.homedisplay {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
+
 #aboutImg {
   height: 20rem;
   width: 20rem;
@@ -82,11 +77,34 @@ figcaption {
   width: 12rem;
   text-align: center;
 }
+
 #search {
   font-weight: bold;
   font-size: 1rem;
-  background-color: rgba(0, 0, 255, 0.13);
+  //background-color: rgba(0, 0, 255, 0.13);
+  height: 2rem;
+  //text-align: center;
 }
+
+.homedisplay {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.homelabel {
+  //background-color: rgba(0, 0, 255, 0.13);
+  display: flex;
+  text-align: right;
+  float: left;
+  font-size: 1rem;
+  width: 12rem;
+  height: 2rem;
+}
+.homeinput {
+  float: left;
+}
+
 #emailid,
 #nameid,
 #sendid {
@@ -101,17 +119,14 @@ figcaption {
 }
 
 .form-inline {
-  margin: 0.5rem 0rem;
+  margin: 0 auto;
   padding: 2rem 2rem;
   text-align: center;
 }
 
-label {
+fieldset label {
   width: 12rem;
   font-size: 1rem;
-}
-.homelabel {
-  background-color: rgba(0, 0, 255, 0.13);
 }
 
 .btn-secondary {
@@ -128,6 +143,8 @@ label {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  justify-content: space-around;
+  align-content: space-around;
 }
 
 .grid-img {
@@ -136,13 +153,6 @@ label {
   border: 1px solid rgba(0, 0, 0, 0.8);
 }
 @media (max-width: 320px) {
-  .grid-container {
-    display: flex;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    grid-template-columns: auto;
-    padding: 5px;
-  }
   .nav-link {
     text-align: center;
   }
@@ -198,19 +208,6 @@ label {
     width: 12rem;
   }
 
-  label {
-    width: 10rem;
-    font-size: 1rem;
-  }
-  .homelabel {
-    width: 12.1rem;
-  }
-  #gifnumber,
-  #keyword,
-  #search {
-    width: 12rem;
-    margin: 0rem 3.5rem;
-  }
   .home {
     text-align: center;
   }
@@ -218,12 +215,6 @@ label {
     font-size: 0.5rem;
     text-align: center;
     font-weight: bold;
-  }
-  .grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
   }
 
   .grid-img {

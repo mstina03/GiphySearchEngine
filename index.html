@@ -52,24 +52,31 @@
     <h1>GIPHY Search API</h1>
     <form class="form-inline ">
         <div class="container">
-            <div class="row">
-                <div class="homedisplay col-sm-12">
-
+            <div class="row homedisplay">
+                <div class="col-md-4">
                     <nav>
-                        <label class="homelabel btn">GIF Search:</label>
-                        <p><input class="form-control mr-sm-2" type="text" placeholder="Enter Keyword" id="keyword"
-                                maxlength="20" pattern="[A-Za-z]" required></p>
+                        <label class="homelabel">GIF Search:</label>
+
+                        <input class="form-control mr-sm-2 homeinput" type="text" placeholder="Enter Keyword"
+                            id="keyword" maxlength="20" pattern="[A-Za-z]" required>
                     </nav>
-
-                    <nav    >
-                        <label class="homelabel btn">No. of GIFs:</label>
-                        <p><input class="form-control mr-sm-2" type="number" max="30" size="2"
-                                placeholder="Enter Number (1-30)" id="gifnumber" min="1"></p>
-                    </nav>
-
-                    <p><button class="btn btn-secondary my-2 my-sm-0" type="submit" id="search">Search</button></p>
-
                 </div>
+                <div class="col-md-4">
+                    <nav>
+                        <label class="homelabel">No. of GIFs:</label>
+
+                        <input class="form-control mr-sm-2 homeinput" type="number" max="30" size="2"
+                            placeholder="Enter Number (1-30)" id="gifnumber" min="1">
+
+                    </nav>
+                </div>
+                <div class="col-md-4">
+                    <nav>
+                        <label class="homelabel hidden">GIF Search:</label>
+                        <button class="btn-secondary my-2 my-sm-0 homeinput" type="submit" id="search">Search</button>
+                    </nav>
+                </div>
+
             </div>
         </div>
     </form>
