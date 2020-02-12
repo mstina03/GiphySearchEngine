@@ -32,7 +32,7 @@ html {
 }
 
 #gitHub {
-  height: 2.75rem;
+  height: 2.8rem;
   width: 2.5rem;
 }
 
@@ -148,7 +148,7 @@ fieldset label {
   visibility: hidden;
 }
 
-.grid-container {
+.grid-container, footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -172,18 +172,8 @@ fieldset label {
   border: 1px solid rgba(0, 0, 0, 0.8);
 }
 
-.contact-me {
-  float: right;
-}
-
 .Logo {
   color: white;
-}
-
-@media (max-width: 320px) {
-  .nav-link {
-    text-align: center;
-  }
 }
 
 @media (max-width: 768px) {
@@ -247,9 +237,6 @@ fieldset label {
     height: 15rem;
     width: 15rem;
     border: 1px solid rgba(0, 0, 0, 0.8);
-  }
-  .nav-link {
-    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
