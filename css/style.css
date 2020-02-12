@@ -172,6 +172,14 @@ fieldset label {
   border: 1px solid rgba(0, 0, 0, 0.8);
 }
 
+.contact-me {
+  float: right;
+}
+
+.Logo {
+  color: white;
+}
+
 @media (max-width: 320px) {
   .nav-link {
     text-align: center;
