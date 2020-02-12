@@ -122,6 +122,10 @@ figcaption {
   width: 24rem;
 }
 
+#msgid {
+  width: 24rem;
+}
+
 #sendid {
   font-weight: bold;
   font-size: 1.25rem;
