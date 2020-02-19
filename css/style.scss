@@ -2,6 +2,18 @@ html {
   font-size: 20px;
   font-family: "Berkshire Swash", cursive;
 }
+html,
+body {
+  height: 100%;
+}
+
+footer {
+  position: relative;
+  margin-top: 3rem;
+  /* negative value of footer height */
+  height: 3rem;
+  clear: both;
+}
 
 #aboutImg {
   height: 20rem;
@@ -61,8 +73,9 @@ figcaption {
 }
 
 .contact {
-  margin: 0.5rem 0rem;
+ 
   padding: 2rem 2rem;
+  align-items: center;
 }
 
 .Inquiry {
@@ -109,7 +122,7 @@ figcaption {
   font-size: 0.8rem;
   width: 24rem;
 }
-#msgid{
+#msgid {
   width: 24rem;
 }
 #sendid {
@@ -138,7 +151,7 @@ fieldset label {
   visibility: hidden;
 }
 
-.grid-container, footer {
+.grid-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -153,12 +166,11 @@ fieldset label {
   border: 1px solid rgba(0, 0, 0, 0.8);
 }
 
-.Logo{
- color: white;
+.Logo {
+  color: white;
 }
 
 @media (max-width: 320px) {
-  
 }
 @media (max-width: 768px) {
   h1 {
@@ -225,5 +237,4 @@ fieldset label {
     width: 15rem;
     border: 1px solid rgba(0, 0, 0, 0.8);
   }
-
 }

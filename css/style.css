@@ -3,6 +3,19 @@ html {
   font-family: "Berkshire Swash", cursive;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+footer {
+  position: relative;
+  margin-top: 3rem;
+  /* negative value of footer height */
+  height: 3rem;
+  clear: both;
+}
+
 #aboutImg {
   height: 20rem;
   width: 20rem;
@@ -61,8 +74,10 @@ figcaption {
 }
 
 .contact {
-  margin: 0.5rem 0rem;
   padding: 2rem 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .Inquiry {
@@ -152,7 +167,7 @@ fieldset label {
   visibility: hidden;
 }
 
-.grid-container, footer {
+.grid-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
